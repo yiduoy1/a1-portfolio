@@ -107,17 +107,16 @@
   align-items: center;
 }
 .sidebar-resume-img {
-  width: 30px;
+  width: 60px;
   height: auto;
   border-radius: 3px;
 }
 
 #logo {
   font-family: "Bungee Hairline";
-  font-size: 30px;
+  font-size: 35px;
   color: #000000;
   text-decoration: none;
-  display: block;
 }
 
 .sidebar-icon {
