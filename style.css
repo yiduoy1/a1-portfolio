@@ -154,7 +154,7 @@
   height: 180px;
   padding: 30px;
   background-color: #ffffff;
-  border: 1px solid #8B9A46;
+  border: 1px solid #3D4D23;
   cursor: pointer;
   text-align: center;
   text-decoration: none;
@@ -167,49 +167,49 @@
 
 /* Row 1 - Darkest green */
 .experience-row:nth-child(1) .experience-box .title {
-  color: #4A5A28;
+  color: #2D3B1A;
 }
 .experience-row:nth-child(1) .experience-box .location {
-  color: #5A6B32;
+  color: #3A4A22;
 }
 .experience-row:nth-child(1) .experience-box .number {
-  color: #6B7F3A;
+  color: #4A5A2B;
 }
 .experience-row:nth-child(1) .experience-box {
-  border-color: #4A5A28;
+  border-color: #2D3B1A;
 }
 
 /* Row 2 - Medium green */
 .experience-row:nth-child(2) .experience-box .title {
-  color: #6B7F3A;
+  color: #3D4D23;
 }
 .experience-row:nth-child(2) .experience-box .location {
-  color: #7A8E44;
+  color: #4A5A2B;
 }
 .experience-row:nth-child(2) .experience-box .number {
-  color: #8B9A46;
+  color: #526331;
 }
 .experience-row:nth-child(2) .experience-box {
-  border-color: #6B7F3A;
+  border-color: #3D4D23;
 }
 
-/* Row 3 - Lightest green */
+/* Row 3 - Lightest green (still meets contrast) */
 .experience-row:nth-child(3) .experience-box .title {
-  color: #8B9A46;
+  color: #4A5928;
 }
 .experience-row:nth-child(3) .experience-box .location {
-  color: #9CAA58;
+  color: #526331;
 }
 .experience-row:nth-child(3) .experience-box .number {
-  color: #A8B85C;
+  color: #5A6B36;
 }
 .experience-row:nth-child(3) .experience-box {
-  border-color: #8B9A46;
+  border-color: #4A5928;
 }
 
 .experience-box .title {
   font-family: 'Aboreto', system-ui;
-  font-size: 1.1rem;
+  font-size: 1.25rem;
   font-weight: 500;
   margin-bottom: 15px;
   line-height: 1.4;
@@ -217,7 +217,7 @@
 
 .experience-box .location {
   font-family: 'SUSE Mono', monospace;
-  font-size: 0.7rem;
+  font-size: 0.875rem;
   line-height: 1.6;
   font-style: italic;
   letter-spacing: 0.5px;
@@ -229,7 +229,7 @@
   top: 10px;
   right: 15px;
   font-family: 'Aboreto', system-ui;
-  font-size: 0.65rem;
+  font-size: 0.875rem;
   letter-spacing: 2px;
 }
 
@@ -273,7 +273,7 @@
 
 .footer-section h2 {
   font-family: "Aboreto", system-ui, sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 400;
   font-style: normal;
   margin: 0 0 25px 0;
@@ -290,8 +290,8 @@
 
 .form-instructions {
   font-family: 'SUSE Mono', monospace;
-  font-size: 0.75rem;
-  color: #666;
+  font-size: 0.875rem;
+  color: #333;
   margin: 0 0 10px 0;
 }
 
@@ -303,8 +303,8 @@
 
 .form-group label {
   font-family: 'SUSE Mono', monospace;
-  font-size: 0.75rem;
-  color: #555;
+  font-size: 0.875rem;
+  color: #333;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -312,9 +312,9 @@
 .form-group input,
 .form-group textarea {
   font-family: 'SUSE Mono', monospace;
-  font-size: 0.85rem;
+  font-size: 1rem;
   padding: 12px 15px;
-  border: 1px solid #ccc;
+  border: 1px solid #666;
   border-radius: 4px;
   background-color: #fff;
   transition: border-color 0.3s ease;
@@ -328,7 +328,7 @@
 
 .form-group input::placeholder,
 .form-group textarea::placeholder {
-  color: #aaa;
+  color: #666;
 }
 
 .form-group textarea {
@@ -338,7 +338,7 @@
 
 .submit-btn {
   font-family: 'SUSE Mono', monospace;
-  font-size: 0.85rem;
+  font-size: 1rem;
   padding: 12px 25px;
   background-color: #000;
   color: #fff;
@@ -371,7 +371,7 @@
   text-decoration: none;
   color: #000;
   font-family: 'SUSE Mono', monospace;
-  font-size: 0.9rem;
+  font-size: 1rem;
   transition: color 0.3s ease;
 }
 
@@ -401,15 +401,15 @@
 
 .footer-bottom p {
   font-family: 'SUSE Mono', monospace;
-  font-size: 0.75rem;
-  color: #888;
+  font-size: 0.875rem;
+  color: #333;
   margin: 0;
 }
 
 .footer-bottom a {
   font-family: 'SUSE Mono', monospace;
-  font-size: 0.75rem;
-  color: #888;
+  font-size: 0.875rem;
+  color: #333;
   text-decoration: none;
 }
 
