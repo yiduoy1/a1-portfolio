@@ -43,7 +43,11 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 
 3. Did you ignore any of the warnings or errors presented by the accessibility checker? If so, why does this not seem like an accessibility concern? If it's useful, you can consolidate your thoughts on multiple warnings/errors if the rationale is similar.
-I ignored the "image might be "
+I ignored the "Image may be decorative" (Check 16): The decorative background leaf image has alt="" and role="presentation" to correctly indicate it is decorative.
+I want the leaf image to be there for colors and aesthetic. 
+I also ignored the -"Title might not describe the document" (Check 54): Page titles are descriptive (e.g., "EEG Research | Yiduo Yao - Portfolio") 
+I want the user to know the content of the page. 
+
 
 
 4. How long, in hours, did it take you to complete this assignment?
