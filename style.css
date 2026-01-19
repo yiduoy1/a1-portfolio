@@ -103,12 +103,35 @@
   z-index: 1000;
 }
 
+/* ===== Fixed Sidebar (Logo + Resume Icon) ===== */
+.fixed-sidebar {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
 #logo {
   font-family: "Bungee Hairline";
   font-size: 30px;
   color: #000000;
   text-decoration: none;
   display: block;
+}
+
+.sidebar-icon {
+  color: #000;
+  font-size: 20px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.sidebar-icon:hover {
+  color: #3D4D23;
 }
 
 /* ===== Experience Section with Leaf Background ===== */
@@ -593,6 +616,11 @@
   }
   
   .fixed-logo {
+    top: 10px;
+    left: 10px;
+  }
+
+  .fixed-sidebar {
     top: 10px;
     left: 10px;
   }
