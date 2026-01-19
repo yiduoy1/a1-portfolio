@@ -9,7 +9,7 @@ EMAIL: yiduoy1@uci.edu
 <head>
   <meta charset="utf-8">
   <meta name="author" content="Yiduo Yao">
-  <meta name="description" content="Yiduo Yao's Portfolio - Healthcare Data Analyst">
+  <meta name="description" content="Yiduo Yao's Portfolio - Healthcare Data Analyst showcasing research experience in EEG, clinical research, data analysis, and archival work">
 
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="bootstrap.css">
@@ -30,35 +30,35 @@ EMAIL: yiduoy1@uci.edu
   
   <!-- Skip to main content link for accessibility -->
   <a href="#main-content" class="skip-link">Skip to main content</a>
-
+  
   <!-- Fixed logo -->
-  <div class="fixed-logo" aria-hidden="true">
-    <div id="logo">YY</div>
-  </div>
+  <nav class="fixed-logo" aria-label="Home navigation">
+    <a href="index.html" id="logo" aria-label="Yiduo Yao home page">YY</a>
+  </nav>
 
   <main id="main-content">
-    <img src="my_protrait.JPG" alt="Yiduo Yao's profile picture - A young professional woman photographed at the Golden Gate Bridge" class="circle-image top-image">
+    <img src="my_protrait.JPG" alt="Yiduo Yao profile photo, a young professional woman at the Golden Gate Bridge" class="circle-image top-image">
     
     <header>
       <h1 id="h1"><span class="initial">Y</span>IDUO <span class="initial">Y</span>AO</h1>
-      <p id="h2" class="subtitle">Healthcare Data Analyst</p>
+      <p id="h2">Healthcare Data Analyst</p>
     </header>
 
     <section class="experience-section" aria-labelledby="experience-heading">
       <h2 id="experience-heading" class="visually-hidden">Professional Experience</h2>
       
-      <!-- Decorative leaf background image -->
+      <!-- Leaf background image - purely decorative -->
       <div class="experience-background" aria-hidden="true">
         <img src="background_leaf.jpeg" alt="" role="presentation">
       </div>
       
-      <div class="experiences-container">
+      <nav class="experiences-container" aria-label="Experience navigation">
         <!-- Row 1: EEG -->
         <div class="experience-row">
           <a href="experience-eeg.html" class="experience-box" aria-label="View EEG research experience at UC Davis Health Department of Anesthesiology and Pain Medicine">
             <span class="number" aria-hidden="true">01</span>
-            <div class="title">Electroencephalogram (EEG)</div>
-            <div class="location">@UC Davis Health<br>Department of Anesthesiology and Pain Medicine</div>
+            <span class="title">Electroencephalogram (EEG)</span>
+            <span class="location">@UC Davis Health<br>Department of Anesthesiology and Pain Medicine</span>
           </a>
         </div>
 
@@ -66,14 +66,14 @@ EMAIL: yiduoy1@uci.edu
         <div class="experience-row">
           <a href="experience-beckman.html" class="experience-box" aria-label="View Clinical Research Assistant experience at UC Irvine Beckman Cancer Laser Institute">
             <span class="number" aria-hidden="true">02</span>
-            <div class="title">Clinical Research Assistant</div>
-            <div class="location">@UC Irvine<br>Beckman Cancer Laser Institute</div>
+            <span class="title">Clinical Research Assistant</span>
+            <span class="location">@UC Irvine<br>Beckman Cancer Laser Institute</span>
           </a>
 
           <a href="experience-ncasd.html" class="experience-box" aria-label="View Data Research Assistant experience at UC Irvine NCASD Lab">
             <span class="number" aria-hidden="true">03</span>
-            <div class="title">Data Research Assistant</div>
-            <div class="location">@UC Irvine<br>The Networks, Computation, and Social Dynamics (NCASD) Lab</div>
+            <span class="title">Data Research Assistant</span>
+            <span class="location">@UC Irvine<br>The Networks, Computation, and Social Dynamics (NCASD) Lab</span>
           </a>
         </div>
 
@@ -81,11 +81,11 @@ EMAIL: yiduoy1@uci.edu
         <div class="experience-row">
           <a href="experience-ocparks.html" class="experience-box" aria-label="View Archive Intern experience at California Orange County Park Cooper Lab">
             <span class="number" aria-hidden="true">04</span>
-            <div class="title">Archive Intern</div>
-            <div class="location">@California Orange County Park<br>Cooper Lab</div>
+            <span class="title">Archive Intern</span>
+            <span class="location">@California Orange County Park<br>Cooper Lab</span>
           </a>
         </div>
-      </div>
+      </nav>
     </section>
   </main>
 
@@ -94,19 +94,19 @@ EMAIL: yiduoy1@uci.edu
       
       <!-- Contact Form -->
       <section class="footer-section contact-form-section" aria-labelledby="contact-form-heading">
-        <h2 id="contact-form-heading">Get In Touch</h2>
+        <h2 id="contact-form-heading" class="aboreto-regular">Get In Touch</h2>
         <form action="#" method="post" class="contact-form" aria-label="Contact form">
-          <p class="form-instructions">Fields marked with <span class="required" aria-hidden="true">*</span> are required.</p>
+          <p class="form-instructions">Fields marked with <span class="required">*</span> are required.</p>
           <div class="form-group">
-            <label for="name">Name <span class="required" aria-hidden="true">*</span><span class="visually-hidden">(required)</span></label>
+            <label for="name">Name <span class="required" aria-hidden="true">*</span></label>
             <input type="text" id="name" name="name" required placeholder="Your name" autocomplete="name">
           </div>
           <div class="form-group">
-            <label for="email">Email <span class="required" aria-hidden="true">*</span><span class="visually-hidden">(required)</span></label>
+            <label for="email">Email <span class="required" aria-hidden="true">*</span></label>
             <input type="email" id="email" name="email" required placeholder="Your email" autocomplete="email">
           </div>
           <div class="form-group">
-            <label for="message">Message <span class="required" aria-hidden="true">*</span><span class="visually-hidden">(required)</span></label>
+            <label for="message">Message <span class="required" aria-hidden="true">*</span></label>
             <textarea id="message" name="message" rows="4" required placeholder="Your message"></textarea>
           </div>
           <button type="submit" class="submit-btn">Send Message</button>
@@ -115,8 +115,8 @@ EMAIL: yiduoy1@uci.edu
 
       <!-- Contact Information -->
       <section class="footer-section contact-info-section" aria-labelledby="contact-info-heading">
-        <h2 id="contact-info-heading">Contact Info</h2>
-        <ul class="contact-info-list" aria-label="Contact information">
+        <h2 id="contact-info-heading" class="aboreto-regular">Contact Info</h2>
+        <ul class="contact-info-list" role="list">
           <li>
             <a href="mailto:yiduoy1@uci.edu">
               <span class="fa-solid fa-at" aria-hidden="true"></span>
