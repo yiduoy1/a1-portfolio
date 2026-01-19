@@ -453,8 +453,8 @@
 
 .detail-number {
   font-family: 'Aboreto', system-ui;
-  font-size: 0.75rem;
-  color: #bbb;
+  font-size: 2rem;
+  color: #000000;
   letter-spacing: 2px;
   display: block;
   margin-bottom: 15px;
